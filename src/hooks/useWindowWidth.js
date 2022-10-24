@@ -1,4 +1,4 @@
-const useWindowDimension = require('./useWindowDimension');
+const {default: useWindowDimension} = require('./useWindowDimension');
 
 const useWindowWidth = returnAsPx => {
     return useWindowDimension('innerWidth', returnAsPx);
