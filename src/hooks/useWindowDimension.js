@@ -15,4 +15,4 @@ const useWindowDimension = (propertyName, returnAsPx) => {
     return returnAsPx ? `${dimension}px` : dimension;
 };
 
-exports.useWindowDimension = useWindowDimension;
+module.exports = useWindowDimension;
