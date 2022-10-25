@@ -1,4 +1,4 @@
-const {default: useWindowHeight} = require('./src/hooks/useWindowHeight');
-const {default: useWindowWidth} = require('./src/hooks/useWindowWidth');
+import useWindowHeight from './src/hooks/useWindowHeight';
+import useWindowWidth from './src/hooks/useWindowWidth';
 
-module.exports = {useWindowHeight, useWindowWidth};
+export default {useWindowHeight, useWindowWidth};
