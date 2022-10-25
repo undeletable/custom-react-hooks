@@ -1,4 +1,4 @@
-const {useEffect, useRef, useState} = require('react');
+import {useEffect, useRef, useState}  from 'react';
 
 const useWindowDimension = (propertyName, returnAsPx) => {
     const [dimension, setDimension] = useState(window[propertyName]);
@@ -15,4 +15,4 @@ const useWindowDimension = (propertyName, returnAsPx) => {
     return returnAsPx ? `${dimension}px` : dimension;
 };
 
-module.exports = useWindowDimension;
+export default useWindowDimension;

@@ -1,7 +1,7 @@
-const {default: useWindowDimension} = require('./useWindowDimension');
+import useWindowDimension from './useWindowDimension';
 
 const useWindowHeight = (returnAsPx) => {
     return useWindowDimension('innerHeight', returnAsPx);
 };
 
-module.exports = useWindowHeight;
+export default useWindowHeight;
